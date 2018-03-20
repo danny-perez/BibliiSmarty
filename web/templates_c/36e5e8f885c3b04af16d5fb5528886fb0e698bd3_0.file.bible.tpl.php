@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-20 08:32:10
+/* Smarty version 3.1.30, created on 2018-03-20 11:03:43
   from "C:\OSPanel\domains\BibliiSmarty\web\templates\bible.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5ab09cda6695c4_70725622',
+  'unifunc' => 'content_5ab0c05f31e866_04771717',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '36e5e8f885c3b04af16d5fb5528886fb0e698bd3' => 
     array (
       0 => 'C:\\OSPanel\\domains\\BibliiSmarty\\web\\templates\\bible.tpl',
-      1 => 1521523871,
+      1 => 1521533019,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ab09cda6695c4_70725622 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ab0c05f31e866_04771717 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!---------------------------------------------------------------->
 <!---------------------------MAIN BLOCK--------------------------->
@@ -146,7 +146,7 @@ function content_5ab09cda6695c4_70725622 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div class="col-md-12" id="title_a_b" style="display: none;">
         <div class="card" style="font-family: PT Sans Caption;">
-            <h3 class="card-title" id="title_about_book">Новый Завет -> Книга Моисея</h3>
+            <h3 class="card-title" id="title_about_book"> </h3>
             <p id="history_period">Исторический период - </p>
             <p id="place_event">Место событий - </p>
             <p id="persons">Персонаж - </p>
