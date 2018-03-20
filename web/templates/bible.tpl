@@ -122,7 +122,7 @@
     </div>
     <div class="col-md-12" id="title_a_b" style="display: none;">
         <div class="card" style="font-family: PT Sans Caption;">
-            <h3 class="card-title" id="title_about_book"> </h3>
+            <h3 class="card-title" id="title_about_book">Книга Моисея </h3>
             <p id="history_period">Исторический период - </p>
             <p id="place_event">Место событий - </p>
             <p id="persons">Персонаж - </p>

@@ -8,14 +8,17 @@ $smarty->debugging = false;
 $smarty->cache_lifetime = 120;
 /********************************************************************************************* */
 /********************************** WORKSPACE *********************************************** */
-$route = $_SERVER['REQUEST_URI'];
+$route_uri = $_SERVER['REQUEST_URI'];
 $smarty->assign("route", $route);
 $smarty->display('header.tpl');
 /* ========================================================================================== */
 /************************************ROUTING************************************************* */
 /* ========================================================================================== */
-if($route=='/') $smarty->display('main.tpl');
-if(($route=='/bible')||($route=='/bible/')) $smarty->display('bible.tpl');
+$route=explode('/',$route_uri);
+$uri=$route[1];
+if($uri=='') $smarty->display('main.tpl');
+if($uri=='bible') $smarty->display('bible.tpl');
+if($uri=='book') $smarty->display('book.tpl');
 /*=========================================================================================== */
 /* ================================END ROUTING=============================================== */
 $smarty->display('footer.tpl');
