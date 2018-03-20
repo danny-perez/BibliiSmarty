@@ -1,8 +1,17 @@
 <?php
 require ('safemysql.php');
-$db     = new SafeMysql(array('db'=>'wp_ekzeget'));
 $api_data = $_REQUEST;
-extract($api_data, EXTR_OVERWRITE); //convert the array key to a variable, the variable name is equals to the database field name
-$sql = "SELECT * FROM `kniga` WHERE `kn` LIKE ?";
-$description = db->getRow($sql,$kn);
-return $description|array('null'=>null);
+extract($api_data);
+
+$db = new SafeMysql(array('db'=>'wp_ekzeget'));
+$sql = "SELECT * FROM `new_book` WHERE `name` LIKE ?s";
+$kn_array = $db->getRow($sql,$name);
+$kn = $kn_array['kn'];
+
+$db1 = new SafeMysql(array('db'=>'wp_pass'));
+$sql1 = "SELECT * FROM `kniga` WHERE `kn` LIKE ?s";
+$description = $db1->getRow($sql1,$kn);
+
+$json = json_encode($description);
+echo $json;
+?>

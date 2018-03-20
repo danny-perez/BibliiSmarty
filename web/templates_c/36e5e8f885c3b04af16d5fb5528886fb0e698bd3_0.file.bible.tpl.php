@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-03-20 07:36:55
+/* Smarty version 3.1.30, created on 2018-03-20 08:32:10
   from "C:\OSPanel\domains\BibliiSmarty\web\templates\bible.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5ab08fe79bfef4_37642814',
+  'unifunc' => 'content_5ab09cda6695c4_70725622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '36e5e8f885c3b04af16d5fb5528886fb0e698bd3' => 
     array (
       0 => 'C:\\OSPanel\\domains\\BibliiSmarty\\web\\templates\\bible.tpl',
-      1 => 1521520501,
+      1 => 1521523871,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ab08fe79bfef4_37642814 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ab09cda6695c4_70725622 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!---------------------------------------------------------------->
 <!---------------------------MAIN BLOCK--------------------------->
@@ -42,7 +42,7 @@ function content_5ab08fe79bfef4_37642814 (Smarty_Internal_Template $_smarty_tpl)
             <div class="card-body">
                 <p align="justify">Первая, древнейшая из двух частей христианской Библии, заимствованная в христианстве из Танаха и в православии и католицизме из других древних еврейских религиозных книг. В Ветхий Завет во всех христианских конфессиях входит 39 книг Танаха, являющегося общим священным текстом иудаизма и христианства. </p>
                 <h4>Читать Библию</h4>
-                <select class="form-control testament">
+                <select class="form-control testament" id='old_testament'>
                     <optgroup label="Выберите Книгу">
                         <option disabled selected>Книги Ветхого Завета</option>
                         <option>Бытие</option>
@@ -109,7 +109,7 @@ function content_5ab08fe79bfef4_37642814 (Smarty_Internal_Template $_smarty_tpl)
             <div class="card-body">
                 <p align="justify">Вторая часть христианской Библии, определяет новый "договор" Бога с людьми. Происходит противопоставление "ветхому", союзу-завету, который был "заключен" с древним Израилем как народом Божьим. Бог обещал спасение лишь при условии исполнения народом воли Божьей, выраженной в Законе (Торе), Новый Завет меняет законы.</p>
                 <h4>Читать Библию</h4>
-                <select class="form-control testament">
+                <select class="form-control testament" id='new_testament'>
                     <optgroup label="Выберите Книгу">
                         <option disabled selected>Книги Нового Завета</option>
                         <option>Евангелие от Матфея</option>
