@@ -13,6 +13,7 @@
 	<script type="text/javascript" src="/js/plugins/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="/js/plugins/select2.min.js"></script>
     <script type="text/javascript" src="/js/plugins/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/js/users/functions.js"></script>
     <script type="text/javascript">
       $('#sl').click(function(){
       	$('#tl').loadingBtn();
